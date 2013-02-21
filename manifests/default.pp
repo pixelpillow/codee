@@ -26,6 +26,12 @@ package { 'php5-cli':
 	require => Package['php5-fpm'],
 }
 
+package { 'php5-mcrypt':
+	notify => Service['php5-fpm'],
+	ensure => present,
+	require => Package['mcrypt'],
+}
+
 service { 'nginx':
 	ensure => running,
 	require => Package['nginx'],
