@@ -3,6 +3,7 @@ server {
 	server_name _;
 	root /vagrant/public;
 	index index.php;
+	sendfile off;
 
 	location / {
 		try_files $uri /index.php;
