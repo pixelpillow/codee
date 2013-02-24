@@ -1,0 +1,193 @@
+/**
+ * Codee general styling
+ */
+/**
+ * @group general
+ */
+* {
+  font-family: "jaf-bernina-sans", "Helvetica Neue", Helvetica, sans-serif;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  -webkit-font-smoothing: antialiased; }
+
+body {
+  color: #fff;
+  font-size: 1em; }
+
+.wrapper {
+  width: 900px;
+  margin: 0px auto;
+  padding: 80px 0px;
+  overflow: hidden; }
+
+h1 {
+  font-weight: normal;
+  font-size: 2.5em;
+  margin-bottom: 40px; }
+
+.button, input[type="submit"] {
+  color: #fff;
+  font-size: 1.2em;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 5px 20px;
+  background: #e63530;
+  border: none;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px; }
+
+.more {
+  margin-top: 20px;
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: 900; }
+  .more:before {
+    content: "+ "; }
+
+hr {
+  border: 1px solid #eb615e;
+  margin: 60px 0px; }
+
+.portrait {
+  margin: 0px auto 10px;
+  height: 90px;
+  width: 90px;
+  border: 5px solid #fcebe9;
+  -webkit-border-radius: 90px;
+  -moz-border-radius: 90px;
+  -ms-border-radius: 90px;
+  -o-border-radius: 90px;
+  overflow: hidden; }
+
+/**
+ * @end
+ */
+/**
+ * @group sections
+ */
+header {
+  background: #e63530 url("../images/light-tip.png") no-repeat center bottom;
+  overflow: auto; }
+  header header {
+    height: 140px;
+    overflow: auto;
+    position: relative;
+    background: -webkit-linear-gradient(#e63530 0%, #e63530 33px, #f18e8b 33px, #f18e8b 34px, #e63530 34px, #e63530 100%); }
+    header header img {
+      left: 0px;
+      top: 0px;
+      position: absolute;
+      padding-right: 20px;
+      background: #e63530; }
+    header header #event-info {
+      width: 250px;
+      left: 50%;
+      top: 20px;
+      padding: 0px 10px;
+      margin-left: -125px;
+      position: absolute;
+      display: inline-block;
+      background: #e63530;
+      text-transform: uppercase;
+      font-size: 1.4em; }
+    header header #sign-up {
+      position: absolute;
+      right: 0px;
+      top: 16px;
+      float: right;
+      background: #9d1713; }
+  header h1 {
+    margin: 0px auto 20px;
+    width: 660px; }
+
+#speakers {
+  color: #e63530;
+  background: white url("../images/dark-tip.png") no-repeat center bottom; }
+  #speakers .speaker {
+    width: 260px;
+    float: left;
+    padding: 0px 20px; }
+    #speakers .speaker h2 {
+      font-weight: bold; }
+  #speakers .portrait {
+    width: 170px;
+    height: 170px;
+    margin-bottom: 20px;
+    -webkit-border-radius: 170px;
+    -moz-border-radius: 170px;
+    -ms-border-radius: 170px;
+    -o-border-radius: 170px; }
+
+#attendees {
+  background: #363533; }
+  #attendees .attendee {
+    width: 160px;
+    float: left;
+    padding: 20px 10px; }
+    #attendees .attendee h2 {
+      font-size: 1.4em;
+      font-weight: normal; }
+    #attendees .attendee h3 {
+      font-size: 1em;
+      font-weight: 100; }
+
+#availability {
+  background: #363533; }
+  #availability .wrapper {
+    padding: 20px 0px 40px;
+    background: -webkit-linear-gradient(#363533 0%, #363533 40px, #6a6865 40px, #6a6865 41px, #363533 41px, #363533 100%); }
+  #availability h2 {
+    background: #363533;
+    display: inline-block;
+    padding: 0px 20px; }
+
+#apply {
+  background: #363533 url("../images/light-tip.png") no-repeat center bottom; }
+  #apply h1 {
+    margin-bottom: 20px; }
+  #apply p {
+    font-weight: 200;
+    width: 300px;
+    margin: 0px auto; }
+  #apply form {
+    width: 340px;
+    margin: 20px auto 0px; }
+  #apply input[type="submit"] {
+    margin-top: 20px; }
+
+footer {
+  color: #fff;
+  background: #e63530; }
+  footer #sponsors {
+    margin-top: 60px; }
+    footer #sponsors li {
+      padding: 0px 20px;
+      display: inline-block; }
+  footer #initiators, footer #initiators a {
+    color: #f18e8b; }
+
+/**
+ * @group forms
+ */
+input[type="text"], select {
+  color: #434343;
+  border: 0px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  font-size: 1.4em;
+  padding: 0.5em 1em;
+  display: block;
+  margin-bottom: 10px;
+  width: 300px;
+  text-align: left; }
+
+select {
+  -webkit-appearance: none; }
+
+select:focus {
+  border: none; }
